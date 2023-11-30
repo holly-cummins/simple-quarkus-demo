@@ -127,6 +127,8 @@ INSERT INTO Greeting(id, name)
 VALUES (nextval('Greeting_SEQ'), 'Bob');
 ```
 
+(An IntelliJ live template called `sql` is handy for this.)
+
 1. The data will update without a restart.
 2. We can also go to the dev UI, and navigate to hibernate, persistence units, and then click on it, to get a create script.
 
