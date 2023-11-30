@@ -3,6 +3,7 @@
 ## Useful IDE shortcuts
 
 - ⌘⌥L to format
+- ⇧⌘T to flip between tests and implementation
 
 ## Scaffolding the app
 1. Go to https://code.quarkus.io
