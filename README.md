@@ -5,7 +5,7 @@
 - ⌘⌥L to format
 
 ## Scaffolding the app
-1. Go to code.quarkus.io
+1. Go to https://code.quarkus.io
 2. Just choose the top option, Rest Easy Reactive
 3. Explain that Quarkus has a reactive core, and will not be doing any reactive programming
 4. Copy the folder path from the Downloads folder
