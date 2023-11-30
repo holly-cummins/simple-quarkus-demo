@@ -64,7 +64,7 @@ return "Hello " + name;
 quarkus ext add hibernate-orm-panache jdbc-postgresql
 ```
 1. Now do some persistence. Make a greeting:
-``@Entity
+```@Entity
 public class Greeting extends PanacheEntity {
 String name;
 }
