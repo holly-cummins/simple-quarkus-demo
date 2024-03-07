@@ -41,7 +41,7 @@ mvn quarkus:dev
 
 ## Live coding 
 
-1. Can we make it more exciting? Add a queryparam in `GreetingResource`
+1. Can we make it more exciting? Add a queryparam in `GreetingResource` (a `query` live template is useful for this)
 
 ```
 public String hello(@QueryParam("name") String name) {
@@ -89,8 +89,9 @@ public String hello(@QueryParam("name") String name) {
 }
 ```
 
+Normally you wouldn't use a `GET` to persist something to the database, but we're being lazy. Let's pretend it's monitoring.
 
-1. Is the data going in? Add a second method. It needs to be in two steps to avoid a cast.
+1. Is the data going in? Add a second method. It needs to be in two steps to avoid a cast. Use a `names` live template.
 
 ```
 @GET
