@@ -9,6 +9,7 @@
 1. Go to https://code.quarkus.io
 2. Just choose the top option, Rest Easy Reactive
 3. Explain that Quarkus has a reactive core, and will not be doing any reactive programming
+4. Show that the template doesn't have much in it, except for maven, because can't make less maven less verbose. :)
 4. Copy the folder path from the Downloads folder
 5. In a terminal run
 ```
