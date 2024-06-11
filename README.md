@@ -4,11 +4,11 @@
 
 - ⌘⌥L to format
 - ⇧⌘T to flip between tests and implementation
+- fn-cmd-F1 to switch screen mirroring on and off
 
 ## Scaffolding the app
 1. Go to https://code.quarkus.io
-2. Just choose the top option, Rest Easy Reactive
-3. Explain that Quarkus has a reactive core, and will not be doing any reactive programming
+2. Just choose the top option, Rest
 4. Show that the template doesn't have much in it, except for maven, because can't make less maven less verbose. :)
 4. Copy the folder path from the Downloads folder
 5. In a terminal run
@@ -41,7 +41,8 @@ mvn quarkus:dev
 
 ## Live coding 
 
-1. Can we make it more exciting? Add a queryparam in `GreetingResource` (a `query` live template is useful for this)
+1. Make a change. Try changing the greeting, using a `hello` live template.
+2. Can we make it more exciting? Add a queryparam in `GreetingResource` (a `query` live template is useful for this, and also a `greeting` live template for hello in other languages)
 
 ```
 public String hello(@QueryParam("name") String name) {
